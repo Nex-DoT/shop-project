@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script src="font.js"></script>
+</head>
+<body>
+<div class="menu">
+    <div class="left-side">
+       <img src="./images/logo.svg" alt="">
+       <ul>
+         <li>Collection</li>
+         <li>Men</li>
+         <li  class="active">Women</li>
+         <li>About</li>
+         <li>Contact</li>
+       </ul>
+    </div>
+
+    <div class="right-side">
+        <div class="cartssd"><span data-num="1" class="fas fa-shopping-cart"></span></div>
+        <img class="avatar" src="./images/image-avatar.png" alt="">
+    </div>
+</div>
+<hr>
+
+
+<section>
+    <div class="box">
+
+        <div> <img class="png" src="./images/image-product-1.jpg" alt=""> </div>
+            <div class="ul-list">
+                      <ul class="lol">
+                           <li class="active" onclick="slider('./images/image-product-1.jpg')"><img   src="./images/image-product-1-thumbnail.jpg" alt=""></li>
+                           <li onclick="slider('./images/image-product-2.jpg')"><img  src="./images/image-product-2-thumbnail.jpg" alt=""></li>
+                           <li onclick="slider('./images/image-product-3.jpg')"><img src="./images/image-product-3-thumbnail.jpg" alt=""></li>
+                           <li onclick="slider('./images/image-product-4.jpg')"><img  src="./images/image-product-4-thumbnail.jpg" alt=""></li>
+                      </ul>
+</div>
+    </div>
+    <div class="text">
+         <p>Sneakers Brand</p>
+         <h1>Fall Limited Edition Sneakers </h1>
+         <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum architecto blanditiis laudantium suscipit adipisci numquam et quo, in corporis error consequuntur eligendi aspernatur minus nam unde repellat consequatur?</p>
+         <div class="price"><h1>$125.00</h1> <span>-50%</span></div>
+         <p class="rlpr">$250.00</p>
+         <div class="btn">
+            <span> 
+            <img class="minus" data-num="-1" src="./images/icon-minus.svg" alt="">
+            <p class="num" data-value="0">0</p>
+            <img class="plus" data-num="1" src="./images/icon-plus.svg" alt="">
+        </span>
+            <button class="btnPlus"> <div class="fas fas fa-shopping-cart"></div> Add to Cart</button>
+         </div>
+        </div>
+</section>
+
+
+<div class="slider-new">
+    <div class="close"><img src="./images/icon-close.svg" alt=""></div>
+    <div class="img">
+        <img class="active" src="./images/image-product-1.jpg" alt="">
+        <img src="./images/image-product-2.jpg" alt="">
+        <img src="./images/image-product-3.jpg" alt="">
+        <img src="./images/image-product-4.jpg" alt="">
+    </div>
+    <div class="box-slider">
+       <div class="mmd">
+        <img onclick="ssd('0')" class="active" src="./images/image-product-1.jpg" alt="">
+        <img onclick="ssd('1')" src="./images/image-product-2.jpg" alt="">
+        <img onclick="ssd('2')" src="./images/image-product-3.jpg" alt="">
+        <img onclick="ssd('3')" src="./images/image-product-4.jpg" alt="">
+       </div>  
+</div>
+<div class="next-per">
+    <div class="prev"> <img src="./images/icon-previous.svg" alt=""></div>
+    <div class="next"><img src="./images/icon-next.svg" alt=""></div>
+</div>
+</div>
+
+<div class="mmb">
+<div class="card">
+    <p>Cart</p>
+    <hr>
+    <span>You'r Cart is empty.</span>
+    
+    <div class="jeson">
+        <img class="mfsf" src="./images/image-product-1-thumbnail.jpg" alt="">
+        <div class="rbBox">
+             <p>Fall Limited Edition Sneakers</p>
+         <h3 class="pricem" data-val="">$125</h3>
+    </div>
+    <img class="delete" src="./images/icon-delete.svg" alt="">
+</div>
+<button>Checkout</button>
+</div>
+</div>
+
+<div class="alert hiden">this iteam added before ! <div class="imgstop"><img src="./images/icon-close.svg" alt=""></div></div>
+
+</body>
+<script src="javasc.js"></script>
+</html>
